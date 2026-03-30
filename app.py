@@ -13,23 +13,19 @@ from src.visualisation import graphical_plot
 st.markdown(
     """
     <style>
-    /* Main background */
-    .stApp {
-        background-color: #f7f9fb;
+    /* Force visible text */
+    html, body, [class*="css"] {
+        color: #1f2d3d !important;
     }
 
-    /* Section cards */
+    /* Card text fix */
     .card {
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-        margin-bottom: 20px;
+    color: #1f2d3d !important;
     }
 
-    /* Headings */
-    h1, h2, h3 {
-        color: #1f2d3d;
+    /* Fix headings */
+    h1, h2, h3, h4 {
+    color: #1f2d3d !important;
     }
 
     /* Buttons */
@@ -50,6 +46,10 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+st.set_page_config(
+    layout="centered"
+    )
 
 #################################################################
 
