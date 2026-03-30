@@ -13,17 +13,13 @@ from src.visualisation import graphical_plot
 st.markdown(
     """
     <style>
-    .stApp {
-        background-color: #f7f9fb;
-    }
-
     /* Force visible text */
     html, body, [class*="css"] {
         color: #1f2d3d !important;
     }
 
     h1, h2, h3 {
-        color: #1f2d3d;
+        color: #6c757d;
     }
 
     /* Buttons */
