@@ -13,24 +13,16 @@ from src.visualisation import graphical_plot
 st.markdown(
     """
     <style>
-     /* Main background */
     .stApp {
         background-color: #f7f9fb;
     }
-    
-    /* Force visible text */
-    html, body, [class*="css"] {
-        color: #1f2d3d !important;
+
+    html, body {
+        color: #1f2d3d;
     }
 
-    /* Card text fix */
-    .card {
-        color: #1f2d3d !important;
-    }
-
-    /* Fix headings */
-    h1, h2, h3, h4 {
-        color: #1f2d3d !important;
+    h1, h2, h3 {
+        color: #1f2d3d;
     }
 
     /* Buttons */
