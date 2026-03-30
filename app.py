@@ -25,12 +25,12 @@ st.markdown(
 
     /* Card text fix */
     .card {
-    color: #1f2d3d !important;
+        color: #1f2d3d !important;
     }
 
     /* Fix headings */
     h1, h2, h3, h4 {
-    color: #1f2d3d !important;
+        color: #1f2d3d !important;
     }
 
     /* Buttons */
