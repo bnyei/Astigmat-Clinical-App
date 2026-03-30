@@ -13,9 +13,9 @@ from src.visualisation import graphical_plot
 st.markdown(
     """
     <style>
-    /* Force visible text */
-    html, body, [class*="css"] {
-        color: #1f2d3d !important;
+     /* Main background */
+    .stApp {
+        background-color: #f7f9fb !important;
     }
 
     /* Card text fix */
