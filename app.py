@@ -15,7 +15,12 @@ st.markdown(
     <style>
      /* Main background */
     .stApp {
-        background-color: #f7f9fb !important;
+        background-color: #f7f9fb;
+    }
+    
+    /* Force visible text */
+    html, body, [class*="css"] {
+        color: #1f2d3d !important;
     }
 
     /* Card text fix */
