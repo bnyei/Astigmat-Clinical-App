@@ -17,8 +17,9 @@ st.markdown(
         background-color: #f7f9fb;
     }
 
-    html, body {
-        color: #1f2d3d;
+    /* Force visible text */
+    html, body, [class*="css"] {
+        color: #1f2d3d !important;
     }
 
     h1, h2, h3 {
