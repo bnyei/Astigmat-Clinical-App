@@ -1,14 +1,12 @@
 import streamlit as st
 
-# 🔷 Import modules
+# Import modules
 from src.graphical import GraphicalMethod
 from src.formula import FormulaMethod
 from src.power_vector import PowerVector
 from src.visualisation import graphical_plot
 
-# =========================================================
-# 🔷 PAGE CONFIG
-# =========================================================
+# PAGE CONFIG
 
 st.markdown(
     """
@@ -47,6 +45,8 @@ st.set_page_config(
 
 #################################################################
 
+#MAIN BODY
+
 st.title("👁️ Astigmatism Prescription Clinical Tool")
 st.caption("Graphical • Formula • Power Vector")
 
@@ -63,7 +63,7 @@ st.warning(
     "👉 Due the Formula Method, it is recommended to input the lens with the smaller axis first.\n\n"
     "👉 Both must be written as plus cylinders or both written as minus cylinders.\n\n"
     
-    "⚠️ This tool is intended to support, not replace, clinical judgment."
+    "⚠️ This tool is intended to support, not replace, clinical judgment and possibly research activities."
 )
 
 st.subheader("🔹 Input Prescription")
@@ -111,9 +111,7 @@ if st.button("🔍 Compute", use_container_width=True):
     st.markdown("### Graphical Plot")
     st.pyplot(fig)
 
-# =========================================================
-# 🔷 PAGE FOOTER
-# =========================================================        
+# PAGE FOOTER
 
 st.markdown("---")
 st.caption(
